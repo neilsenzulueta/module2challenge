@@ -7,6 +7,7 @@
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -22,6 +23,10 @@ header {
     background-color: var(--primary-color);
     color: #fff;
     padding: 20px;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 nav ul {
@@ -47,18 +52,15 @@ section {
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
+    
 }
 
-.project {
+.work {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
-.project img {
-    max-width: 100%;
-    margin-bottom: 10px;
 }
 
 footer {
