@@ -1,17 +1,14 @@
-/* Define CSS variables for easy theming */
 :root {
     --primary-color: #414952;
     --text-color: #333;
     --background-color: #f0f0f0;
 }
 
-/* Reset some default styles */
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
 
-/* Basic styling */
 body {
     font-family:monospace, sans-serif;
     background-color: var(--background-color);
@@ -72,7 +69,6 @@ footer {
     color: #fff;
 }
 
-/* Responsive design with media queries */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
