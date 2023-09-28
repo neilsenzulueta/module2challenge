@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #414952; /* Gray color used in header background*/
-    --text-color: #333;       /* black used for text color*/
-    --background-color: #f0f0f0;  /* white used for background color */
+    --primary-color: #3f4650; /* Gray color used in header background*/
+    --text-color: black;       /* black used for text color*/
+    --background-color: white;  /* white used for background color */
 }
 
 body, h1, h2, p {
@@ -11,17 +11,17 @@ body, h1, h2, p {
 }
 /* styles for body of page */
 body {
-    font-family:monospace, sans-serif;
+    font-family:monospace,serif, sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
-    line-height: 1.6;
+    line-height: 1.5;
     padding: 20px;
 }
 /* styles for header section */
 header {
     text-align: left;
     background-color: var(--primary-color);
-    color: #fff;
+    color: white;
     padding: 20px;
 }
 /* styles for h2 elements */
@@ -33,7 +33,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: black;
     padding: 10px;
 }
 
@@ -43,15 +43,15 @@ nav ul li {
 
 nav a {
     text-decoration: underline;
-    color: #fff;
+    color: white;
     font-weight: bold;
 }
 /* styles for content sections */
 section {
     margin: 20px 0;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: white;
+    border: 1px solid black;
     
 }
 /* styles for elements with class "work" */
@@ -84,8 +84,8 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: black;
+    color: white;
 }
 
 /* media query for screens with a max width of 992px, adjust the navigation menu for smaller screens */
